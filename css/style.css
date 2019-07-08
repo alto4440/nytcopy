@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  list-style-type: none;
+}
+
+nav {
+  padding: 4px 15px 2px;
+}
+
+.navbar ul {
+  display: flex;
+  width: 100%;
+  height: 42px;
+  justify-content: space-between;
+}
+
+.navbar li {
+  display: inline-flex;
+  padding: 0 9px;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.fas {
+  height: 15px;
+  width: 15px;
+  align-items: center;
+}
+
+.article-category {
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.logo img {
+  width: 190px;
+  height: 35px;
+}
+
+button {
+  padding: 8px 12px;
+  color: #fff;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-right: -15px;
+}
+
+.comments-button {
+  width: 330px;
+  height: 36px;
+  font-size: 12px;
+}
+
+#feature-article {
+  text-align: center;
+}
+
+.headline h1 {
+  width: 400px;
+  height: 100px;
+  margin: 40px 0 0 28%;
+  font-size: 30px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+
+
+.primary-image img {
+  width: 890px;
+  height: 530px;
+}
+
+
+#primary-image-caption {
+  font-size: 14px;
+  color: #666;
+  width: 890px;
+  text-align: left;
+  margin: auto;
+  padding-right: 200px;
+  line-height: 1.3;
+}
+
+#photographer {
+  font-size: 13px;
+  color: #888;
+  width: 890px;
+  text-align: left;
+  margin: auto;
+  padding: 0 0 3em 0;
+}
+
+#article-info {
+  font-family: 'Libre Franklin';
+  width: 600px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.article-wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+.article-wrapper p {
+  font-size: 1.1rem;
+  padding: .5em 0 .5em 0;
+  line-height: 1.85;
+}
+
+.social-media {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.article-date {
+  font-size: 14px;
+  color: #333;
+}
+
+
+.social-media li {
+  display: inline-flex;
+  padding-left: 1em;
+}
+
+
+.social img {
+  height: 18px;
+  width: 18px;
+}
+
+.bookmark img,
+.comments img {
+  height: 28px;
+  width: 28px;
+}
+
+#diagram {
+  text-align: left;
+  width: 900px;
+  margin: auto;
+}
+
+.diagram-header {
+  text-align: left;
+  margin: auto;
+}
+
+#diagram-title {
+  font-family: 'Libre Franklin';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#diagram-sub {
+  font-family: 'Libre Franklin';
+  font-size: 13px;
+  margin: 0 0 1em 0;
+  line-height: 1.5;
+}
+
+.diagram-container img {
+  position: relative;
+  height: 710px;
+  width: 900px;
+}
+
+
+.caption-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: left;
+  width: 900px;
+  align-content: center;
+  margin: auto;
+}
+
+.caption-wrapper p {
+  position: relative;
+  top: -530px;
+  width: 200px;
+  height: auto;
+  font-size: 12px;
+  font-family: 'Libre Franklin';
+  line-height: 20px;
+  color: #333;
+  z-index: 2;
+  text-align: left;
+  margin: 0 1em 180px 1em;
+}
+
+.leadin {
+  font-size: 11px;
+  font-family: 'Libre Franklin';
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 1em 0 0;
+}
+
+.diagram-footer {
+  margin-top: -680px;
+  font-size: 11px;
+  font-family: 'Libre Franklin';
+}
+
+.diagram-footer p {
+  margin-top: 1em;
+}
+
+.diagram-line {
+  width: 70px;
+}
+
+.diagram-author {
+  text-transform: uppercase;
+}
+
+
+.article-secondary-image img,
+.article-video iframe {
+  display: block;
+  width: 720px;
+  height: 480px;
+  margin: auto;
+  padding: 1em 0 0 0;
+}
+
+.article-secondary-image figcaption,
+.article-video figcaption {
+  width: 720px;
+  margin: auto;
+  font-size: 15x;
+  padding: .5em 0;
+  line-height: 1.4;
+  color: #666;
+}
+
+.secondary-image-photographer,
+.video-citation {
+  display: block;
+  font-size: 12px;
+  color: #888;
+}
+
+#article-bottom {
+  padding: 0 0 4em 0;
+}
+
+#article-bottom p {
+  font-size: 11px;
+  font-family: 'Libre Franklin';
+  color: #999;
+}
+
+.comments-bar {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comments-bar li {
+  display: inline-flex;
+  padding: .8em;
+}
+
+#more-articles .more-related {
+  width: 70%;
+  float: left;
+}
+
+#more-articles .most-popular {
+  width: 27%;
+  float: right;
+}
+
+.related-article-wrapper,
+.editors-pick-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  padding: 1em 5em;
+}
+
+.article-group-title {
+  padding: 2em 5em 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  border-top: 1px solid #000;
+}
+
+.card img,
+.card h2 {
+  max-width: 265px;
+}
+
+.article-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #121212;
+  padding-top: .05em;
+  line-height: 1.3;
+}
+
+.card a {
+  text-decoration: none;
+  color: #121212;
+}
+
+.card-date {
+  font-size: 12px;
+  color: #999;
+}
+
+#most-popular-articles .article-title {
+  padding: 1em 0 .5em;
+  margin: 1em 0;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+#footer-nav-links {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1em;
+  padding: 1em 5em;
+  width: 100%;
+}
+
+.nav-section-title {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Libre Franklin';
+  color: #333;
+  font-weight: 700px;
+}
+
+.nav-link-section li {
+  font-family: 'Libre Franklin';
+  color: #000;
+  font-weight: 400px;
+  line-height: 1.8;
+  font-size: 12px;
+}
+
+.subscribe-link-section li {
+  font-family: 'Libre Franklin';
+  color: #000;
+  font-weight: 400px;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.nav-link-section li:hover,
+.subscribe-link-section li:hover,
+#main-footer li:hover {
+  text-decoration: underline;
+}
+
+#main-footer {
+  margin: 3em auto 0;
+  width: 70%;
+  font-family: 'Libre Franklin';
+  color: #999;
+  font-size: 11px;
+}
+
+#main-footer ul {
+  display: flex;
+  width: 100%;
+  height: 42px;
+  justify-content: space-between;
+}
+
+#main-footer li {
+  display: inline-flex;
+  padding: 0 9px;
+}
